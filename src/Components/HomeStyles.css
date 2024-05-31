@@ -1,0 +1,119 @@
+/* .home1{
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}*/
+.video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+/* .homecontent{
+    width: 100%;
+    height: max-content;
+    padding: 8rem 1.5rem 3rem ;
+    display: flex;
+    row-gap: 3rem;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    margin: auto;
+    color: var(--whiteColor);
+    color: aliceblue;
+    z-index: 100;
+    
+}  */
+.homecontent {
+  position: absolute;
+  top: 34%;
+  left: 87%;
+  transform: translate(-50%, -50%);
+  width: 113%;
+}
+
+.home1 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  margin: auto;
+}
+video {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.homecontent h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  background: #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.homecontent p {
+  font-size: 1.3rem;
+  color: #fff;
+  padding: 0.5rem 0 2rem 5rem;
+}
+@media screen and (max-width: 850px) {
+  .video {
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+  }
+  .homecontent {
+    position: absolute;
+    top: 34%;
+    transform: translate(-50%, -50%);
+    width: 113%;
+    margin-left: -17%;
+  }
+  .homecontent h1 {
+    font-size: 1.7rem;
+    margin: auto;
+  }
+  .homecontent p {
+    font-size: 0.9rem;
+    margin-left: -9%;
+  }
+  .homecontent .btn {
+    margin-left: 14%;
+    font-size: 0.9rem;
+    padding: 0.8rem 0.5rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .video {
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+  }
+  .homecontent {
+    position: absolute;
+    top: 34%;
+    transform: translate(-50%, -50%);
+    width: 165%;
+    margin-left: 1%;
+  }
+  .homecontent h1 {
+    margin-left: 2rem;
+    font-size: 1.6rem;
+  }
+  .homecontent p {
+    margin-left: -9%;
+    font-size: 1rem;
+  }
+  .homecontent .btn {
+    font-size: 0.9rem;
+    margin-left: 14%;
+    padding: 0.8rem 0.5rem;
+  }
+}
